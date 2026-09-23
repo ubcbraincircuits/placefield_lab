@@ -1,0 +1,59 @@
+{
+  "config": {
+    "seed": 42,
+    "duration_s": 600.0,
+    "dt_s": 0.02,
+    "n_cells": 100,
+    "avoidance": 1.6,
+    "open_modulated_fraction": 0.25,
+    "open_gain": 1.8,
+    "decode_window_s": 0.2,
+    "train_fraction": 0.7,
+    "min_occupancy_s": 0.3,
+    "smoothing_cm": 4.5
+  },
+  "total_spikes": 159500,
+  "total_entries": 66,
+  "open_entries": 15,
+  "occupancy_seconds": {
+    "center": 157.9,
+    "open": 84.36,
+    "closed": 357.74
+  },
+  "open_fraction_of_arm_time": 0.19081655733996833,
+  "configured_open_choice_probability": 0.16798161486607552,
+  "train_seconds": 420.0,
+  "test_windows": 900,
+  "test_spatial_coverage": 0.9977777777777778,
+  "median_error_cm": {
+    "Decoded": 2.1686405183538087,
+    "Unit shuffle": 23.402570118284686,
+    "Occupancy only": 15.080695748765908
+  },
+  "within_10_cm": 1.0,
+  "decoding_by_zone": {
+    "center": {
+      "n_windows": 227,
+      "median_error_cm": 2.1213203435596424
+    },
+    "open": {
+      "n_windows": 67,
+      "median_error_cm": 2.4884221226264143
+    },
+    "closed": {
+      "n_windows": 606,
+      "median_error_cm": 2.355855010275837
+    }
+  },
+  "environment": {
+    "python": "3.12.10",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "pillow": "12.3.0"
+    }
+  }
+}

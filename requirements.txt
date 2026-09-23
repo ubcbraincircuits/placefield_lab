@@ -1,0 +1,7 @@
+# Direct dependencies. See requirements-lock.txt for the demonstrated environment.
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.1,<4
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+pillow>=10,<13

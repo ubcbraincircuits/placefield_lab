@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "duration_s": 600.0,
+  "dt_s": 0.02,
+  "n_cells": 100,
+  "avoidance": 1.6,
+  "open_modulated_fraction": 0.25,
+  "open_gain": 1.8,
+  "decode_window_s": 0.2,
+  "train_fraction": 0.7,
+  "min_occupancy_s": 0.3,
+  "smoothing_cm": 4.5
+}
