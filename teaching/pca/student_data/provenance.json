@@ -1,0 +1,26 @@
+{
+  "dt_s": 0.01999999999999602,
+  "bin_s": 0.5,
+  "samples_per_bin": 25,
+  "used_samples": 30000,
+  "discarded_samples": 0,
+  "included_spikes": 159500,
+  "n_bins": 1200,
+  "n_neurons": 100,
+  "source_file": "session.npz",
+  "source_sha256": "46d71d8ccdf41721518f40909f26739ceeaa84b89a63d2b6c444afc6c138b46a",
+  "neural_csv_sha256": "49ec693fa7626dad4948095e3c763f5d3efbf2fbb341f24869a14c80637b9bfd",
+  "numpy_version": "2.5.3",
+  "arm_bin_counts": {
+    "north_closed": 382,
+    "south_closed": 338,
+    "center": 311,
+    "west_open": 97,
+    "east_open": 72
+  },
+  "transition_bins": 123,
+  "matrix_orientation": "rows=time bins, columns=neurons",
+  "rate_unit": "Hz",
+  "smoothing": "none",
+  "fit_scope": "all complete bins; no balancing or filtering"
+}

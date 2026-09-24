@@ -183,6 +183,11 @@ summary of the full session.
 
 ## Questions to keep asking
 
+For an unsupervised view of these same neurons, see the [PCA lesson](PCA_LESSON.md)
+and its separate instructor reference. PCA describes population variance rather than
+predicting location in held-out time windows, so its figures answer a different question
+from the decoder above.
+
 1. Is a pattern a property of the generator, an estimate from samples, or a held-out result?
 2. Could occupancy or spatial preference explain an apparent neural difference?
 3. What is the comparison method, and does it answer the question I care about?

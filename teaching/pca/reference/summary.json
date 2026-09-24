@@ -1,0 +1,21 @@
+{
+  "n_bins": 1200,
+  "n_neurons": 100,
+  "bin_seconds": 0.5,
+  "constant_neurons": [],
+  "standardized_first_three": [
+    0.23302375050572144,
+    0.1536723357029576,
+    0.1274310121755102
+  ],
+  "standardized_first_two_total": 0.386696086208679,
+  "standardized_first_three_total": 0.5141270983841892,
+  "centered_only_first_three": [
+    0.31209646048284867,
+    0.16599129061289,
+    0.07138419894167636
+  ],
+  "components_for_80_percent": 24,
+  "fit_scope": "descriptive full-session PCA; labels excluded",
+  "neural_csv_sha256": "49ec693fa7626dad4948095e3c763f5d3efbf2fbb341f24869a14c80637b9bfd"
+}

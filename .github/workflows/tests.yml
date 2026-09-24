@@ -27,3 +27,5 @@ jobs:
         run: python -m unittest discover -s . -p "test_*.py" -v
       - name: Render a short session
         run: python run.py --duration 30 --cells 12 --out results_smoke
+      - name: Export PCA classroom data and reference plots
+        run: python pca_reference.py --session results_smoke/session.npz --out results_pca_smoke

@@ -129,7 +129,24 @@ print(position_cm.shape, spike_counts.shape)
 
 Data units, array dimensions, and the file inventory are in [Methods](METHODS.md#files-and-data).
 Full regenerated datasets are ignored by Git. A small curated gallery is committed in
-`docs/assets/`, so students can inspect the results before installing anything.
+`docs/assets/`, and a compact CSV teaching dataset is included in `teaching/pca/`.
+Students can inspect the example before installing anything.
+
+## PCA lesson and CSV handout
+
+The [PCA lesson](PCA_LESSON.md) provides ready-to-use **1,200 × 100 firing-rate data**,
+matching time/position/arm labels, and a separate instructor reference. Students can
+work directly from [the numeric CSV](teaching/pca/student_data/neural_rates_hz.csv)
+without installing or running this simulator. Keep metadata out of the PCA feature matrix.
+
+To regenerate the exports and reference figures from `results/session.npz`:
+
+```bash
+python pca_reference.py
+```
+
+The reference includes standardized and centered-only PCA, explained variance,
+2D/3D projections, and component weights. No additional dependencies are required.
 
 ## Check the model
 
